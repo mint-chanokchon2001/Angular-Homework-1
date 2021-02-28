@@ -1,0 +1,7 @@
+<p>My tasks today</p>
+<ul>
+    <li *ngFor="let task of tasks">{{ task }}</li>
+</ul>
+<b>Task : </b>
+<input type="text" [(ngModel)]="task">
+<button (click)="AddTask()">Submit</button>
