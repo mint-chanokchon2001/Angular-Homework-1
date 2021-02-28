@@ -1,0 +1,12 @@
+p {
+    margin: 20px 0px;
+}
+
+.menuButton button {
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+}
