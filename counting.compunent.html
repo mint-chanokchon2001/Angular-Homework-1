@@ -1,0 +1,10 @@
+<div class="container">
+    <div *ngIf="true">
+        <h2>คลิกเพื่อทำการ บวก ลบ ล้าง ตัวเลข</h2>
+        <h4>ตัวเลขตอนนี้ {{ count }}</h4>
+    
+        <button (click)="plus()">บวก</button>
+        <button (click)="delete()">ลบ</button>
+        <button (click)="clear()">ล้าง</button>
+    </div>
+</div>
